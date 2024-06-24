@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container{
+  background-color: azure;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+}
+
+.jokes{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: 1rem;
+ 
+}
+.joke{
+  background-color: rgb(222, 238, 233);
+  padding: 20px;
+  margin: 15px;
+  width: 400px;
+  height: auto;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  transform: scale(1);
+}
+/* 
+.joke:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s;
+} */
+
+.joke-text{
+  font-size: 18px;
+  margin-bottom: 5rem;
+}
+
+.rate-buttons{
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.rate-buttons button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rate-buttons button:hover{
+  background-color: #e1e1e1;
+}
+
+.joke-cont{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 80%;
+}
+
+input{
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  width: 70%;
+  text-align: center;
+}
+
+input::placeholder{
+  text-align: center;
+}
+.form button{
+  padding: 1rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+input:focus{
+  outline: none;
+}
+

@@ -1,0 +1,53 @@
+ [
+      {
+        "id": 1,
+        "joke": "Why don't skeletons fight each other? They don't have the guts.",
+        "rating": 7
+      },
+      {
+        "id": 2,
+        "joke": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+        "rating": 8
+      },
+      {
+        "id": 3,
+        "joke": "What do you call an elephant that doesn’t matter? An irrelephant.",
+        "rating": 6
+      },
+      {
+        "id": 4,
+        "joke": "What do you get from a pampered cow? Spoiled milk.",
+        "rating": 5
+      },
+      {
+        "id": 5,
+        "joke": "Why couldn’t the bicycle stand up by itself? It was two tired.",
+        "rating": 7
+      },
+      {
+        "id": 6,
+        "joke": "What did the grape do when he got stepped on? He let out a little wine.",
+        "rating": 7
+      },
+      {
+        "id": 7,
+        "joke": "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "rating": 9
+      },
+      {
+        "id": 8,
+        "joke": "Did you hear about the guy who invented Lifesavers? They say he made a mint.",
+        "rating": 6
+      },
+      {
+        "id": 9,
+        "joke": "Why do chicken coops only have two doors? Because if they had four, they’d be chicken sedans!",
+        "rating": 8
+      },
+      {
+        "id": 10,
+        "joke": "Why don’t scientists trust atoms? Because they make up everything.",
+        "rating": 8
+      }
+    ]
+  
