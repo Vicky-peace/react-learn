@@ -40,17 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-.users{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: center;
-     gap: 20px;
-}
-
-.user{
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  padding: 10px 20px;
-}
