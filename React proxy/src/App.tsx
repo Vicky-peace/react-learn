@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
-import axios from 'axios';
-import './App.css'
 
+import './App.css'
+import useFetch from './hooks/useFetch'
 interface User{
   id: number;
   name: string;
@@ -28,22 +27,27 @@ interface User{
 }
 
 function App() {
-  const [fetchData, setFetchedData] = useState([]) 
+const [fetchData] = useFetch();
+
+
   
-  useEffect(() => {
-     axios.get('https://jsonplaceholder.typicode.com/users')
-     .then(res => setFetchedData(res.data))
-     .then((error) => console.log(error))
-  },[])
- console.log(fetchData)
+
+  
+  
+
+
   return (
     <>
+    <div>
+     
+    </div>
+    <div className='users'>
       {fetchData ? (
         fetchData.map((user: User) => (
-          <div key={user.id}>
-            <h1>{user.name}</h1>
-            <p>{user.username}</p>
-            <p>{user.email}</p>
+          <div key={user.id} className='user'>
+            <p>Name:{user.name}</p>
+            <p>userName:{user.username}</p>
+            <p>Email:{user.email}</p>
             <p>{user.address.street}</p>
             <p>{user.address.suite}</p>
             <p>{user.address.city}</p>
@@ -58,6 +62,7 @@ function App() {
           </div>
         ))
       ) : (<div> no data found</div>)}
+    </div>
     </>
   )
 }
